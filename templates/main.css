@@ -1,0 +1,180 @@
+html {
+    background-color: #e6e9e9;
+    background-image: linear-gradient(270deg,rgb(230,233,233) 0%,rgb(216,221,221) 100%);
+    background-image: -o-linear-gradient(270deg,rgb(230,233,233) 0%,rgb(216,221,221) 100%);
+    background-image: -moz-linear-gradient(270deg,rgb(230,233,233) 0%,rgb(216,221,221) 100%);
+    background-image: -webkit-linear-gradient(270deg,rgb(230,233,233) 0%,rgb(216,221,221) 100%);
+    background-image: -ms-linear-gradient(270deg,rgb(230,233,233) 0%,rgb(216,221,221) 100%);
+    -webkit-font-smoothing: antialiased;
+}
+
+body {
+    margin: 0 auto;
+    padding: 2em 2em 4em;
+    max-width: 1024px;
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.5em;
+    color: #545454;
+    background-color: #ffffff;
+    -webkit-box-shadow: 0 0 2px rgba(0, 0, 0, 0.06);
+    -moz-box-shadow: 0 0 2px rgba(0, 0, 0, 0.06);
+    box-shadow: 0 0 2px rgba(0, 0, 0, 0.06);
+}
+
+h1, h2, h3, h4, h5, h6 {
+    color: #222;
+    font-weight: 600;
+    line-height: 1.3em;
+}
+
+h2 {
+    margin-top: 1.3em;
+}
+
+a {
+    color: #c1d72e; 
+}
+
+a {
+	text-decoration: none;
+}
+
+a:link, a:visited {
+	color: #c1d72e;
+}
+
+a:hover, a:active, {
+	color: #fff;
+}
+
+header nav ul {
+	list-style-type: none;
+	padding: 0 20px;
+	margin: 1em 0 0 0; 
+	-webkit-margin-before: 1em;
+	-webkit-margin-after: 0;
+	-webkit-margin-start: 0;
+	-webkit-margin-end: 0;
+	-webkit-padding-start: 1em;
+}
+
+header nav li {
+	display: inline-block;
+	padding: 10px 30px;
+    text-transform: uppercase;
+}
+
+header nav a.current {
+	color: #eee;
+}
+
+header nav a:hover {
+	color: #fff;
+}
+
+#login {
+	background-color: #ccc;
+	width: 50%;
+	margin: 1em auto;
+	padding: 1.5em;
+	text-align: center;
+}
+
+fieldset {
+	border: 0;
+	display: block;
+	margin: 0 auto;
+}
+
+#inputs input {
+	background-color: #ebebeb;
+	padding: 1em;
+	margin: 0 0 1em 0;
+	width: 26em;
+	border: 1px solid #ccc;
+	border-radius: 10px;
+	text-align: left;
+}
+
+#submit {
+	background-color: #c1d72e;
+	background-image: -webkit-linear-gradient(top, #d2e542, #c1d72e);
+	background-image: -moz-linear-gradient(top, #d2e542, #c1d72e);
+	background-image: -ms-linear-gradient(top, #d2e542, #c1d72e);
+	background-image: -o-linear-gradient(top, #d2e542, #c1d72e);
+	background-image: linear-gradient(top, #d2e542, #c1d72e);	
+	border: 1px solid #ccc;
+	border-radius: 10px;
+    color: #005696;
+	text-shadow: 0 0 1px 0 #888;
+	float: left; 
+	width: 6em;
+	height: 2em;
+	cursor: pointer;
+	font: bold 1.2em Arial, Helvetica, sans-serif;
+}
+
+#actions {
+	margin: .5em 0 0 0;
+}
+
+#actions a {
+color: #005696;
+float: right;
+line-height: 2em;
+margin-left: 1em;
+}
+
+#login h1 {
+    text-shadow: 0 1px 0 #444, 0px 2px 0 #999;
+    text-transform: uppercase;
+    text-align: center;
+    color: #005696;
+    margin: 0 0 .5em 0;
+    letter-spacing: 2px;
+    font: normal 26px/1 Arial, Helvetica;
+    position: relative;
+}
+
+}
+samp {
+    /* hide tutorial instructions so they don't show in the browser */
+    display: block;
+    padding: 1.5em;
+    background-color: #ebebeb;
+    border: 1px solid #bbb;        
+}
+
+img {
+    background: transparent;
+    border: 10px solid rgba(0, 0, 0, 0.12);
+    border-radius: 4px;
+    display: block;
+    margin: 1.3em auto;
+    max-width: 95%;
+    -webkit-animation: colorize 2s cubic-bezier(0, 0, .78, .36) 1;
+}
+
+
+article, aside, figcaption, figure, footer, header, hgroup, nav, section
+{
+    display: block;
+}
+
+header {
+	padding: 20px 0 0 0;
+	background-color: #005696;
+	text-align: center;
+}
+
+footer {
+	padding: 20px 0 20px 0;
+	background-color: #005696;
+	color: #eee;
+	text-align: center;
+}
+
+
+
+
