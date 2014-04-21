@@ -1,0 +1,39 @@
+/*    
+    INSTRUCTIONS
+ 
+    Using CSS properties alone, recreate the button shown here (originally from Mobify's codepen account): 
+    
+        http://css-tricks.com/interview-questions-css/ 
+*/
+
+body {
+  text-align: center;
+}
+
+a {
+  text-decoration: none;
+  text-transform: uppercase;
+  text-shadow: #eee 2px 2px 2px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 2em;
+  font-weight: 700;
+  color: #444;
+  padding: .5em 1em;
+  margin: 1.5em auto;
+  display: block;
+  box-sizing: border-box;
+  width: 10em;
+  background: linear-gradient(#ebebeb, #a1a1a1);
+  border: 1px solid #999;
+  border-radius: 10px;
+  box-shadow:
+	0 1px 0 1px #777,
+	0 0 0 8px #c1c1c1,
+	0 0 0 10px #fff,
+	0 0 0 13px #888;  
+}
+
+a:before, a:after {  
+  content: "\2605";
+  color: #666;
+}
